@@ -1,15 +1,18 @@
 class CalcularImc
 
-  def Peso(peso)
-    return  45.00
+
+  def Peso()
+        return 17.00
   end
-  def Alt(altura)
-    return 17.00
+  def Alt()
+      return 1.75
+
   end
 
 
-  def Imc(peso,altura)
-    return  (peso/(altura*altura)).round(2)
+
+  def Imc(peso,alt)
+    return  (peso/(alt*alt)).round(2)
   end
 
 
